@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="main.css">
+    <link rel="stylesheet" href="curricularComponetsStyle.css">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cadastro de Componente Curricular</title>
+</head>
+<body>
+    <header>
+        <h1>Cadastro de Componetes Curricular</h1>
+        <button><a href="/index.html">Sair</a></button>
+    </header>
+    <nav class="navegador">
+        
+        <a href="/controlPanel.html">Usuário</a>
+        <a href="/history.html">Histórico</a>
+        <a href="/curricularComponents.html">Cadastro de Componentes Curriculares</a>
+      
+    </nav>
+    <main>
+        <form method="post" class="formulario">
+            <label style="font-size:xx-large">*Nome da Atividade:</label>
+            <input class="blocoInput" type="text" placeholder="nome" required>
+            <label style="font-size:xx-large">*Horas:</label>
+            <input class="blocoInput" type="number" placeholder="horas" required>
+            <label style="font-size:xx-large">*Data de Início:</label required>
+            <input class="blocoInput" type="date" >
+            <label style="font-size:xx-large">Data de Término:</label>
+            <input class="blocoInput" type="date" >
+            <label style="font-size:xx-large">*Email do responsável:</label>
+            <input class="blocoInput" type="email" placeholder="email" required>
+            <label style="font-size:xx-large">*Telefone do responsável:</label>
+            <input class="blocoInput" type="tel" placeholder="telefone" required>
+            <input class="botao" type="submit" value="Cadastrar">
+        </form>
+    </main>
+    <footer style="position:relative">
+        <h2>SIGAA | Copyright © 2010-2022 - Superintendência de Tecnologia da Informação - UFC - (85) 3366-9999 - si3asprd02.ufc.br</h2>
+    </footer>
+</body>
+</html>

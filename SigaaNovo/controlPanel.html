@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="main.css">
+    <link rel="stylesheet" href="controlPanelStyle.css">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Painel de Controle - SIGAA</title>
+    <style>
+        .imagem{
+            display: block;
+            position: relative;
+            text-align: center;
+            border-radius: 10px;
+            background-image: url("pos-graduacao.jpg");
+            background-size: cover;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Painel de Controle - Usuário </h1>
+        <button><a href="/index.html">Sair</a></button>
+    </header>
+    <nav class="navegador">
+        
+        <a href="/controlPanel.html">Usuário</a>
+        <a href="/history.html">Histórico</a>
+        <a href="/curricularComponents.html">Cadastro de Componentes Curriculares</a>
+      
+    </nav>
+    <main>
+        <div  class="imagem">
+            <img src="simples.jpg" alt="usuário">
+        </div>
+        <h2 class="dadosUnisario">Nome: Fulano de Tal</h2>
+        <h3 class="dadosUnisario">Email: fulano.de.tal@alu.ufc.br</h3>
+        <h4 class="dadosUnisario">IRA: 800.00</h4>
+        <h5 class="dadosUnisario">25 créditos computados</h5>
+        <br>
+        <div id="listaDiscplina" class="lista_disciplinas">
+            <h2>Disciplinas Cursadas Atualmente</h2>
+            <ul>
+                <li>Calculo Vetorial</li>
+                <li>Física Geral 3</li>
+                <li>Tecnologia Web</li>
+                <li>Métodos Numéricos</li>
+                <li>Fundamentos da Administração</li>
+                <div class="selecionaTema">
+                    <span>Selecione o tema:</span>
+                    <input type="color" value="#ffffff">
+                    <input type="color" value="#ff0000">
+                    <input type="color" value="#0000ff">
+                </div>
+                
+                
+            </ul>
+        </div>
+        <br>
+        <div class="Progresso">
+            <h1>Progresso no Curso</h1>
+            <ul>
+                <li>Disciplinas Obrigatórias <progress value="60" max="100">60%</progress></li>
+                <li>Disciplinas Eletivas <progress value="20" max="100">20%</progress></li>
+                <li>Horas de estágio obrigatório <progress value="30" max="100">30%</progress></li>
+                <li>Horas Complementares <progress value="0" max="100">0%</progress></li>
+                <li>Horas de Extensão <progress value="50" max="100">50%</progress></li>
+                <li>Horas de Programação <progress value="80" max="100">80%</progress></li>
+            </ul>
+        </div>
+        <br>
+        <div class="resumo">
+            <table>
+                <tr>
+                    <th>ID</th>
+                    <th>Atividades</th>
+                    <th>Progresso</th>
+                </tr>
+                <tr>
+                    <td>1</td>
+                    <td>Disciplinas Obrigatórias </td>
+                    <td>2000/3000hs</td>
+                </tr>
+                <tr>
+                    <td>2</td>
+                    <td>Disciplinas Eletivas</td>
+                    <td>200/800hs</td>
+                </tr>
+                <tr>
+                    <td>3</td>
+                    <td>Horas de estágio obrigatório</td>
+                    <td>100/400hs</td>
+                </tr>
+                <tr>
+                    <td>4</td>
+                    <td>Horas Complementares</td>
+                    <td>0/120hs</td>
+                </tr>
+                <tr>
+                    <td>5</td>
+                    <td>Horas de Extensão</td>
+                    <td>150/300hs</td>
+                </tr>
+                <tr>
+                    <td>6</td>
+                    <td>Horas de Programação</td>
+                    <td>80/100hs</td>
+                </tr>
+            </table>
+        </div>
+
+    </main>
+    <footer style="position:relative">
+        <h2>SIGAA | Copyright © 2010-2022 - Superintendência de Tecnologia da Informação - UFC - (85) 3366-9999 - si3asprd02.ufc.br</h2>
+    </footer>
+</body>
+</html>

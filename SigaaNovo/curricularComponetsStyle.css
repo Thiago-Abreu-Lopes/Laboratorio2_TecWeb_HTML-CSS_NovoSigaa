@@ -1,0 +1,69 @@
+.navegador a{
+    display: inline;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    padding:5px;
+    border-radius: 5px;
+    text-decoration: none;
+    color:#0b5e70;
+}
+.navegador a:hover{
+    background-color: #0b5e70;
+    color:aliceblue;
+}
+
+header h1{
+    padding: 5px;
+}
+header button{
+    
+    background:none;
+    padding: 5px;
+    border: 0px;
+}
+header button a{
+    background-color:aliceblue;
+    text-decoration: none;
+    color:#0b5e70;
+}
+header button{
+    color:aliceblue;
+    background-color: aliceblue;
+    border-radius: 5px;
+    border: 0px;
+}
+main{
+    margin-bottom: 20px;
+}
+.formulario{
+    background-color: aliceblue;
+    padding: 30px;
+    border-radius: 10px;
+}
+.blocoInput{
+    border: 0;
+    padding: 10px;
+    border-radius: 5px;
+    background-color: rgb(42, 88, 100);
+    color: aliceblue;
+}
+.blocoInput::placeholder{
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    color: aliceblue;
+}
+label{
+    font-family: 'Times New Roman', Times, serif;
+    color:#0b5e70;
+}
+.botao{
+    border:0px;
+    border-radius: 5px;
+    margin: 10px 0px 0px 0px; 
+    padding: 10px;
+    background-color: #0b5e70;
+    color:aliceblue;
+}
+.botao:hover{
+    background-color:aliceblue ;
+    color:#0b5e70;
+
+}
